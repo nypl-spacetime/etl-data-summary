@@ -1,0 +1,12 @@
+{
+  "id": "data-summary",
+  "title": "Data Summary",
+  "license": "CC0",
+  "description": "Data Summary creates a summary of the data produced by all ETL modules",
+  "author": "Bert Spaan",
+  "website": "http://spacetime.nypl.org/#data",
+  "editor": "Bert Spaan",
+  "dependsOn": [
+    "*.aggregate"
+  ]
+}

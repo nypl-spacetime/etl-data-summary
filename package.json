@@ -1,0 +1,23 @@
+{
+  "name": "etl-data-summary",
+  "version": "0.0.1",
+  "description": "Data Summary creates a summary of the data produced by all ETL modules",
+  "main": "data-summary.js",
+  "scripts": {
+    "test": "standard",
+    "readme": "spacetime-generate-etl-readme ./ -o README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nypl-spacetime/etl-data-summary.git"
+  },
+  "author": "Bert Spaan",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "spacetime-generate-etl-readme": "github:nypl-spacetime/generate-etl-readme"
+  },
+  "dependencies": {
+    "ramda": "^0.22.1"
+  }
+}
