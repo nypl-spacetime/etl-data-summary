@@ -1,6 +1,6 @@
 {
   "name": "etl-data-summary",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Data Summary creates a summary of the data produced by all ETL modules",
   "main": "data-summary.js",
   "scripts": {

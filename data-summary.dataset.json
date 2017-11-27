@@ -2,11 +2,21 @@
   "id": "data-summary",
   "title": "Data Summary",
   "license": "CC0",
-  "description": "Data Summary creates a summary of the data produced by all ETL modules",
-  "author": "Bert Spaan",
-  "website": "http://spacetime.nypl.org/#data",
-  "editor": "Bert Spaan",
+  "description": "Data Summary creates a summary of the data produced by all ETL modules: counts, types, steps, metadata, and whether log files are available",
+  "homepage": "http://spacetime.nypl.org/#data",
   "dependsOn": [
     "*.aggregate"
+  ],
+  "sources": [
+    {
+      "title": "All datasets in NYC Space/Time Directory",
+      "path": "http://spacetime.nypl.org/#data"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Bert Spaan",
+      "role": "author"
+    }
   ]
 }
