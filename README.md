@@ -1,6 +1,11 @@
 # NYC Space/Time Directory ETL module: Data Summary
 
-[ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) module for NYPL's [NYC Space/Time Direcory](http://spacetime.nypl.org/). This Node.js module downloads, parses, and/or transforms Data Summary data, and creates a NYC Space/Time Directory dataset.
+[ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load) module for NYPL’s [NYC Space/Time Direcory](http://spacetime.nypl.org/). This Node.js module downloads, parses, and/or transforms Data Summary data, and creates a NYC Space/Time Directory dataset.
+
+
+## Data
+
+The dataset created by this ETL module’s `summary` step can be found in the [data section of the NYC Space/Time Directory website](http://spacetime.nypl.org/#data-data-summary).
 
 ## Details
 
@@ -19,7 +24,7 @@
 
 <tr>
 <td>Description</td>
-<td>Data Summary creates a summary of the data produced by all ETL modules</td>
+<td>Data Summary creates a summary of the data produced by all ETL modules: counts, types, steps, metadata, and whether log files are available</td>
 </tr>
 
 <tr>
@@ -28,12 +33,17 @@
 </tr>
 
 <tr>
-<td>Author</td>
-<td>Bert Spaan</td>
+<td>Contributors</td>
+<td>Bert Spaan (author)</td>
 </tr>
 
 <tr>
-<td>Website</td>
+<td>Sources</td>
+<td><a href="http://spacetime.nypl.org/#data">All datasets in NYC Space/Time Directory</a></td>
+</tr>
+
+<tr>
+<td>Homepage</td>
 <td><a href="http://spacetime.nypl.org/#data">http://spacetime.nypl.org/#data</a></td>
 </tr>
 
